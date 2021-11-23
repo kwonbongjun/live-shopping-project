@@ -1,0 +1,29 @@
+html,body{
+    height: 100%;
+}
+
+#root{
+    height: 100%;
+}
+.shopping-page{
+    display: flex;
+    height: 100%;
+}
+.shopping-page .layout{
+    background-color: #000000;
+    flex-basis: 33%;
+    flex-shrink: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopping-page .layout .broadcast{
+    width: 27vw;
+    height: 48vw;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url('/src/page/live-shopping.png');
+    background-size: cover;
+    background-position: center;
+}
